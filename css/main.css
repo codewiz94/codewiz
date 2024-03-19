@@ -1,2 +1,74 @@
+/* line 10, ../portfolio/codewiz/scss/main.scss */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+/* line 15, ../portfolio/codewiz/scss/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 19, ../portfolio/codewiz/scss/main.scss */
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+/* line 25, ../portfolio/codewiz/scss/main.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+/* line 31, ../portfolio/codewiz/scss/main.scss */
+ul {
+  margin: 0;
+  padding-left: 0; }
+
+/* line 36, ../portfolio/codewiz/scss/main.scss */
+a {
+  text-decoration: none; }
+
+/* line 40, ../portfolio/codewiz/scss/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-transform: uppercase; }
+
+/* line 50, ../portfolio/codewiz/scss/main.scss */
+h1 {
+  font-size: clamp(3.05rem, calc(3.18vw + 2.42rem), 5rem); }
+
+/* line 54, ../portfolio/codewiz/scss/main.scss */
+h2 {
+  font-size: clamp(2.44rem, calc(2.14vw + 2.01rem), 3.75rem); }
+
+/* line 58, ../portfolio/codewiz/scss/main.scss */
+h3 {
+  font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem); }
+
+/* line 62, ../portfolio/codewiz/scss/main.scss */
+h4 {
+  font-size: clamp(1.56rem, calc(0.89vw + 1.38rem), 2.11rem); }
+
+/* line 66, ../portfolio/codewiz/scss/main.scss */
+h5 {
+  font-size: clamp(1.25rem, calc(0.54vw + 1.14rem), 1.58rem); }
+
+/* line 70, ../portfolio/codewiz/scss/main.scss */
+p {
+  font-size: clamp(1rem, calc(0.31vw + 0.94rem), 1.19rem); }
+
+/* line 77, ../portfolio/codewiz/scss/main.scss */
+header {
+  max-width: 100%;
+  min-height: 100vh; }
+
+/* line 82, ../portfolio/codewiz/scss/main.scss */
+main {
+  max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

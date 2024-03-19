@@ -11,7 +11,7 @@
 		"../scss/_footer.scss"
 	],
 	"sourcesContent": [
-		"@import 'variables.scss';\r\n@import 'header.scss';\r\n@import 'section-about.scss';\r\n@import 'section-techstack.scss';\r\n@import 'section-projects.scss';\r\n@import 'footer.scss';",
+		"@import 'variables.scss';\r\n@import 'header.scss';\r\n@import 'section-about.scss';\r\n@import 'section-techstack.scss';\r\n@import 'section-projects.scss';\r\n@import 'footer.scss';\r\n\r\n// DOCUMENT SETTINGS\r\n\r\nhtml {\r\n    box-sizing: border-box;\r\n    scroll-behavior: smooth;\r\n}\r\n \r\n*, *:before, *:after {\r\n    box-sizing: inherit;\r\n}\r\n \r\nhtml, body {\r\n    height: 100%;\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n    height: auto;\r\n    vertical-align: middle;\r\n}\r\n\r\nul {\r\n    margin: 0;\r\n    padding-left: 0;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n    margin: 0;\r\n    text-transform: uppercase;\r\n}\r\n\r\nh1 {\r\n    font-size: $fs-xxxl;\r\n}\r\n\r\nh2 {\r\n    font-size: $fs-xxl;\r\n}\r\n\r\nh3 {\r\n    font-size: $fs-xl;\r\n}\r\n\r\nh4 {\r\n    font-size: $fs-lg;\r\n}\r\n\r\nh5 {\r\n    font-size: $fs-md;\r\n}\r\n\r\np {\r\n    font-size: $fs-base;\r\n}\r\n\r\n\r\n// DISPLAY SETTINGS\r\n\r\nheader {\r\n    max-width: 100%;\r\n    min-height: 100vh;\r\n}\r\n\r\nmain {\r\n    max-width: 100%;\r\n}",
 		"// COLORS\r\n$color-text: #F2F3F4;\r\n$color-dark: #000000;\r\n$underline-about: #BA0001;\r\n$underline-tech: #B83DCB;\r\n$underline-projects: #FFD801;\r\n// FONT SIZE\r\n$fs-sm: clamp(0.8rem, calc(0.15vw + 0.77rem), 0.89rem);\r\n$fs-base: clamp(1rem, calc(0.31vw + 0.94rem), 1.19rem);\r\n$fs-md: clamp(1.25rem, calc(0.54vw + 1.14rem), 1.58rem);\r\n$fs-lg: clamp(1.56rem, calc(0.89vw + 1.38rem), 2.11rem);\r\n$fs-xl: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem);\r\n$fs-xxl: clamp(2.44rem, calc(2.14vw + 2.01rem), 3.75rem);\r\n$fs-xxxl: clamp(3.05rem, calc(3.18vw + 2.42rem), 5rem);",
 		"",
 		"",
@@ -20,5 +20,5 @@
 		""
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AASA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,MAAM,GAC1B;;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAC;EACjB,UAAU,EAAE,OAAO,GACtB;;;AAED,AAAA,IAAI,EAAE,IAAI,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC,GACZ;;;AAED,AAAA,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,MAAM,GACzB;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,CAAC,GAClB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI,GACxB;;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,cAAc,EAAE,SAAS,GAC5B;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,ECrCH,4CAA4C,GDsCrD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EC1CJ,+CAA+C,GD2CvD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EC/CL,8CAA8C,GDgDrD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,ECpDL,+CAA+C,GDqDtD;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,ECzDL,+CAA+C,GD0DtD;;;AAED,AAAA,CAAC,CAAC;EACE,SAAS,EC9DH,4CAA4C,GD+DrD;;;AAKD,AAAA,MAAM,CAAC;EACH,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,KAAK,GACpB;;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI,GAClB"
 }
