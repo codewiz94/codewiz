@@ -208,27 +208,28 @@ nav {
 /* line 23, ../portfolio/codewiz/scss/_footer.scss */
 .footer-wrap-2 {
   display: grid;
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(4, 1fr); }
   /* line 27, ../portfolio/codewiz/scss/_footer.scss */
-  .footer-wrap-2 h4 {
+  .footer-wrap-2 h4,
+  .footer-wrap-2 h5 {
     line-height: 1.5;
     place-self: center;
     text-align: center; }
-  /* line 33, ../portfolio/codewiz/scss/_footer.scss */
+  /* line 34, ../portfolio/codewiz/scss/_footer.scss */
   .footer-wrap-2 ul {
     list-style: none;
     place-self: center; }
-    /* line 37, ../portfolio/codewiz/scss/_footer.scss */
+    /* line 38, ../portfolio/codewiz/scss/_footer.scss */
     .footer-wrap-2 ul li {
       line-height: 2;
-      font-size: clamp(1.56rem, calc(0.89vw + 1.38rem), 2.11rem); }
-      /* line 41, ../portfolio/codewiz/scss/_footer.scss */
+      font-size: clamp(1.25rem, calc(0.54vw + 1.14rem), 1.58rem); }
+      /* line 42, ../portfolio/codewiz/scss/_footer.scss */
       .footer-wrap-2 ul li i {
         text-decoration: underline;
         text-decoration-color: #F2F3F4;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px; }
-    /* line 50, ../portfolio/codewiz/scss/_footer.scss */
+    /* line 51, ../portfolio/codewiz/scss/_footer.scss */
     .footer-wrap-2 ul li a {
       color: #F2F3F4;
       padding: 1rem 0;
@@ -237,12 +238,20 @@ nav {
       text-underline-offset: 10px;
       text-decoration-thickness: 3px; }
 
-/* line 61, ../portfolio/codewiz/scss/_footer.scss */
-.regards {
+/* line 62, ../portfolio/codewiz/scss/_footer.scss */
+.git a {
+  color: #F2F3F4;
   text-decoration: underline;
   text-decoration-color: #F2F3F4;
   text-underline-offset: 6px;
   text-decoration-thickness: 3px; }
+  /* line 69, ../portfolio/codewiz/scss/_footer.scss */
+  .git a i {
+    color: #F2F3F4;
+    text-decoration: underline;
+    text-decoration-color: #F2F3F4;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px; }
 
 /* line 10, ../portfolio/codewiz/scss/main.scss */
 html {

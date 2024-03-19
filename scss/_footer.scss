@@ -22,9 +22,10 @@
 
 .footer-wrap-2 {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 
-    h4 {
+    h4,
+    h5 {
         line-height: 1.5;
         place-self: center;
         text-align: center;
@@ -36,7 +37,7 @@
 
         li {
             line-height: 2;
-            font-size: $fs-lg;
+            font-size: $fs-md;
 
             i {
                 text-decoration: underline;
@@ -58,9 +59,19 @@
     }
 }
 
-.regards {
+.git a {
+    color: $color-text;
     text-decoration: underline;
     text-decoration-color: $color-text;
     text-underline-offset: 6px;
     text-decoration-thickness: 3px;
+
+    i {
+        color: $color-text;
+        text-decoration: underline;
+        text-decoration-color: $color-text;
+        text-underline-offset: 6px;
+        text-decoration-thickness: 3px;
+    }
 }
+
