@@ -1,0 +1,46 @@
+.about-section {
+    min-height: 100vh;
+    background: url(../img/bg/about-bg-pc-grad.png) no-repeat;
+    background-size: cover;
+    color: $color-text;
+
+    border-bottom: 1px solid red;
+    
+    h2 {
+        padding: 3rem 0;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $underline-about;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 6px;
+    }
+}
+
+.about-wrap-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+
+.about-wrap-1 {
+
+
+    h1 {
+        line-height: 1.5;
+        text-decoration: underline;
+        text-decoration-color: $underline-about;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 6px;
+    }
+
+    h3 {
+        text-transform: none;
+        place-self: center;
+        line-height: 1.5;
+        padding-top: 2rem;
+    }
+}
+
+.about-wrap-2 {
+    line-height: 2;
+}
