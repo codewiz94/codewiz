@@ -1,3 +1,67 @@
+/* line 1, ../portfolio/codewiz/scss/_header.scss */
+header {
+  background: url(../img/bg/webp/header-bg-pc-grad.webp) no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #F2F3F4;
+  font-weight: 500; }
+
+/* line 9, ../portfolio/codewiz/scss/_header.scss */
+.header-section {
+  border-bottom: 1px solid red; }
+
+/* line 15, ../portfolio/codewiz/scss/_header.scss */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+/* line 22, ../portfolio/codewiz/scss/_header.scss */
+.menu-nav {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(5, 1fr);
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #FFD801; }
+
+/* line 33, ../portfolio/codewiz/scss/_header.scss */
+.header-section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+/* line 39, ../portfolio/codewiz/scss/_header.scss */
+.logo-content {
+  display: grid;
+  align-self: center; }
+
+/* line 44, ../portfolio/codewiz/scss/_header.scss */
+.header-hero-wrap {
+  display: grid;
+  align-self: end; }
+
+/* line 49, ../portfolio/codewiz/scss/_header.scss */
+.logo-wrap {
+  width: 100%; }
+
+/* line 55, ../portfolio/codewiz/scss/_header.scss */
+.wiz {
+  max-width: 40%; }
+  /* line 58, ../portfolio/codewiz/scss/_header.scss */
+  .wiz .cls-1, .wiz .cls-2 {
+    fill: #F2F3F4;
+    stroke-width: 0px; }
+  /* line 63, ../portfolio/codewiz/scss/_header.scss */
+  .wiz .cls-2 {
+    fill-rule: evenodd; }
+
+/* line 70, ../portfolio/codewiz/scss/_header.scss */
+.logo-text {
+  font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem);
+  padding-top: 1rem; }
+
 /* line 10, ../portfolio/codewiz/scss/main.scss */
 html {
   box-sizing: border-box;
@@ -62,12 +126,22 @@ h5 {
 p {
   font-size: clamp(1rem, calc(0.31vw + 0.94rem), 1.19rem); }
 
-/* line 77, ../portfolio/codewiz/scss/main.scss */
-header {
-  max-width: 100%;
-  min-height: 100vh; }
+/* line 74, ../portfolio/codewiz/scss/main.scss */
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: aqua; }
 
-/* line 82, ../portfolio/codewiz/scss/main.scss */
+/* line 79, ../portfolio/codewiz/scss/main.scss */
+footer {
+  color: aquamarine; }
+
+/* line 85, ../portfolio/codewiz/scss/main.scss */
+header,
+footer {
+  max-width: 100%;
+  height: 100vh; }
+
+/* line 93, ../portfolio/codewiz/scss/main.scss */
 main {
   max-width: 100%; }
 

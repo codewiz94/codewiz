@@ -71,13 +71,24 @@ p {
     font-size: $fs-base;
 }
 
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: aqua;
+}
+
+footer {
+    color: aquamarine;
+}
 
 // DISPLAY SETTINGS
 
-header {
+header,
+footer {
     max-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 }
+
+
 
 main {
     max-width: 100%;
