@@ -106,7 +106,7 @@ nav {
 /* line 1, ../portfolio/codewiz/scss/_section-techstack.scss */
 .techstack-section {
   min-height: 100vh;
-  background: url(../img/bg/techstack-bg-pc-grad.png) no-repeat;
+  background: url(../img/bg/webp/techstack-bg-pc-grad-final.webp) no-repeat;
   background-size: cover;
   color: #F2F3F4;
   border-bottom: 1px solid red; }
@@ -183,7 +183,8 @@ nav {
   background: url(../img/other/webp/sklo.webp) no-repeat;
   background-size: contain;
   color: #DD4B25;
-  transform: translateZ(125px); }
+  transform: translateZ(7.8125rem);
+  /*125px*/ }
 
 /* line 99, ../portfolio/codewiz/scss/_section-techstack.scss */
 .back {
@@ -191,7 +192,8 @@ nav {
   background: url(../img/other/webp/sklo.webp) no-repeat;
   background-size: contain;
   color: #000000;
-  transform: translateZ(-125px); }
+  transform: translateZ(-7.8125rem);
+  /*125px*/ }
 
 /* line 108, ../portfolio/codewiz/scss/_section-techstack.scss */
 .right {
@@ -199,7 +201,7 @@ nav {
   background: url(../img/other/webp/sklo.webp) no-repeat;
   background-size: contain;
   color: #E2C430;
-  transform: translateX(125px) rotateY(90deg);
+  transform: translateX(7.8125rem) rotateY(90deg);
   /*125px*/ }
 
 /* line 116, ../portfolio/codewiz/scss/_section-techstack.scss */
@@ -326,6 +328,103 @@ nav {
   text-decoration-color: #B83DCB;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 1300px) {
+  /* line 257, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .cube {
+    left: 43%;
+    top: 24%;
+    width: 12.5rem;
+    /* 200px */
+    height: 12.5rem;
+    /* 200px */ }
+  /* line 264, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .side {
+    width: 12.5rem;
+    /* 200px */
+    height: 12.5rem;
+    /* 200px */ }
+  /* line 269, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .front {
+    transform: translateZ(6.25rem);
+    /*87.5px*/ }
+  /* line 274, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .back {
+    transform: translateZ(-6.25rem);
+    /*87.5px*/ }
+  /* line 279, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .right {
+    transform: translateX(6.25rem) rotateY(90deg);
+    /*87.5px*/ }
+  /* line 283, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .left {
+    transform: translateX(-6.25rem) rotateY(-90deg);
+    /*87.5px*/ }
+  /* line 288, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .top {
+    transform: translateY(-6.25rem) rotateX(90deg);
+    /*87.5px*/ }
+  /* line 292, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .bottom {
+    transform: translateY(6.25rem) rotateX(-90deg);
+    /*87.5px*/ }
+  /* line 296, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .icon-wrap {
+    font-size: 4rem; } }
+
+@media (max-width: 1200px) {
+  /* line 302, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .cube {
+    left: 41%;
+    top: 24%;
+    width: 12.5rem;
+    /* 200px */
+    height: 12.5rem;
+    /* 200px */ } }
+
+@media (max-width: 1050px) {
+  /* line 311, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .cube {
+    left: 41%;
+    top: 24%;
+    width: 10.9375rem;
+    /* 175px */
+    height: 10.9375rem;
+    /* 175px */ }
+  /* line 318, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .side {
+    width: 10.9375rem;
+    /* 175px */
+    height: 10.9375rem;
+    /* 175px */ }
+  /* line 323, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .front {
+    transform: translateZ(5.46875rem);
+    /*87.5px*/ }
+  /* line 328, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .back {
+    transform: translateZ(-5.46875rem);
+    /*100px*/ }
+  /* line 333, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .right {
+    transform: translateX(5.46875rem) rotateY(90deg);
+    /*100px*/ }
+  /* line 337, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .left {
+    transform: translateX(-5.46875rem) rotateY(-90deg);
+    /*100px*/ }
+  /* line 342, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .top {
+    transform: translateY(-5.46875rem) rotateX(90deg);
+    /*100px*/ }
+  /* line 346, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .bottom {
+    transform: translateY(5.46875rem) rotateX(-90deg);
+    /*100px*/ }
+  /* line 350, ../portfolio/codewiz/scss/_section-techstack.scss */
+  .icon-wrap {
+    font-size: 5rem; } }
 
 /* line 1, ../portfolio/codewiz/scss/_section-projects.scss */
 .projects-section {

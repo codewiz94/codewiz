@@ -1,6 +1,6 @@
 .techstack-section {
     min-height: 100vh;
-    background: url(../img/bg/techstack-bg-pc-grad.png) no-repeat;
+    background: url(../img/bg/webp/techstack-bg-pc-grad-final.webp) no-repeat;
     background-size: cover;
     color: $color-text;
 
@@ -92,7 +92,7 @@
     background: url(../img/other/webp/sklo.webp) no-repeat;
     background-size: contain;
     color: $logo-html;
-    transform: translateZ(125px);
+    transform: translateZ(7.8125rem); /*125px*/
 }
 
 
@@ -101,7 +101,7 @@
     background: url(../img/other/webp/sklo.webp) no-repeat;
     background-size: contain;
     color: $logo-git;
-    transform: translateZ(-125px);
+    transform: translateZ(-7.8125rem); /*125px*/
 }
 
 
@@ -110,7 +110,7 @@
     background: url(../img/other/webp/sklo.webp) no-repeat;
     background-size: contain;
     color: $logo-js;
-    transform: translateX(125px) rotateY(90deg); /*125px*/
+    transform: translateX(7.8125rem) rotateY(90deg); /*125px*/
 }
 
 .left {
@@ -250,3 +250,104 @@
     text-underline-offset: 8px;
     text-decoration-thickness: 3px;
   }
+
+  /* MEDIA QUERIES */
+
+ @media (max-width: 1300px) {
+    .cube {
+        left: 43%;
+        top: 24%;
+        width: 12.5rem; /* 200px */
+        height: 12.5rem; /* 200px */
+      }
+    
+    .side {
+        width: 12.5rem; /* 200px */
+        height: 12.5rem; /* 200px */
+    }
+
+    .front {
+        transform: translateZ(6.25rem); /*87.5px*/
+    }
+    
+    
+    .back {
+        transform: translateZ(-6.25rem); /*87.5px*/
+    }
+    
+    
+    .right {
+        transform: translateX(6.25rem) rotateY(90deg); /*87.5px*/
+    }
+    
+    .left {
+      transform: translateX(-6.25rem) rotateY(-90deg); /*87.5px*/
+      
+    }
+    
+    .top {
+      transform: translateY(-6.25rem) rotateX(90deg); /*87.5px*/
+    }
+    
+    .bottom {
+      transform: translateY(6.25rem) rotateX(-90deg); /*87.5px*/
+    }
+
+    .icon-wrap {
+        font-size: 4rem;
+    }
+ }
+
+ @media (max-width: 1200px) {
+    .cube {
+        left: 41%;
+        top: 24%;
+        width: 12.5rem; /* 200px */
+        height: 12.5rem; /* 200px */
+      }
+ }
+
+ @media (max-width: 1050px) {
+    .cube {
+        left: 41%;
+        top: 24%;
+        width: 10.9375rem; /* 175px */
+        height: 10.9375rem; /* 175px */
+      }
+
+    .side {
+        width: 10.9375rem; /* 175px */
+        height: 10.9375rem; /* 175px */
+    }
+
+    .front {
+        transform: translateZ(5.46875rem); /*87.5px*/
+    }
+    
+    
+    .back {
+        transform: translateZ(-5.46875rem); /*100px*/
+    }
+    
+    
+    .right {
+        transform: translateX(5.46875rem) rotateY(90deg); /*100px*/
+    }
+    
+    .left {
+      transform: translateX(-5.46875rem) rotateY(-90deg); /*100px*/
+      
+    }
+    
+    .top {
+      transform: translateY(-5.46875rem) rotateX(90deg); /*100px*/
+    }
+    
+    .bottom {
+      transform: translateY(5.46875rem) rotateX(-90deg); /*100px*/
+    }
+
+    .icon-wrap {
+        font-size: 5rem;
+    }
+ }
