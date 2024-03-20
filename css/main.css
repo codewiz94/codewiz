@@ -929,28 +929,30 @@ nav {
 /* line 23, ../portfolio/codewiz/scss/_footer.scss */
 .footer-wrap-2 {
   display: grid;
-  grid-template-rows: repeat(4, 1fr); }
-  /* line 27, ../portfolio/codewiz/scss/_footer.scss */
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 1rem; }
+  /* line 28, ../portfolio/codewiz/scss/_footer.scss */
   .footer-wrap-2 h4,
   .footer-wrap-2 h5 {
     line-height: 1.5;
     place-self: center;
     text-align: center; }
-  /* line 34, ../portfolio/codewiz/scss/_footer.scss */
+  /* line 35, ../portfolio/codewiz/scss/_footer.scss */
   .footer-wrap-2 ul {
     list-style: none;
     place-self: center; }
-    /* line 38, ../portfolio/codewiz/scss/_footer.scss */
+    /* line 39, ../portfolio/codewiz/scss/_footer.scss */
     .footer-wrap-2 ul li {
+      padding: 0.5rem 0;
       line-height: 2;
       font-size: clamp(1.25rem, calc(0.54vw + 1.14rem), 1.58rem); }
-      /* line 42, ../portfolio/codewiz/scss/_footer.scss */
+      /* line 44, ../portfolio/codewiz/scss/_footer.scss */
       .footer-wrap-2 ul li i {
         text-decoration: underline;
         text-decoration-color: #F2F3F4;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px; }
-    /* line 51, ../portfolio/codewiz/scss/_footer.scss */
+    /* line 53, ../portfolio/codewiz/scss/_footer.scss */
     .footer-wrap-2 ul li a {
       color: #F2F3F4;
       padding: 1rem 0;
@@ -959,20 +961,43 @@ nav {
       text-underline-offset: 10px;
       text-decoration-thickness: 3px; }
 
-/* line 62, ../portfolio/codewiz/scss/_footer.scss */
+/* line 64, ../portfolio/codewiz/scss/_footer.scss */
 .git a {
   color: #F2F3F4;
   text-decoration: underline;
   text-decoration-color: #F2F3F4;
   text-underline-offset: 6px;
   text-decoration-thickness: 3px; }
-  /* line 69, ../portfolio/codewiz/scss/_footer.scss */
+  /* line 71, ../portfolio/codewiz/scss/_footer.scss */
   .git a i {
     color: #F2F3F4;
     text-decoration: underline;
     text-decoration-color: #F2F3F4;
     text-underline-offset: 6px;
     text-decoration-thickness: 3px; }
+
+@media (max-width: 900px) {
+  /* line 82, ../portfolio/codewiz/scss/_footer.scss */
+  .footer-wrap-main {
+    grid-template-columns: unset;
+    grid-template-rows: 2.2fr 1fr;
+    column-gap: 1rem; }
+  /* line 88, ../portfolio/codewiz/scss/_footer.scss */
+  .footer-wrap-1 {
+    grid-row: 2;
+    display: grid; }
+  /* line 95, ../portfolio/codewiz/scss/_footer.scss */
+  .footer-hero {
+    max-width: 50%;
+    place-self: center; } }
+
+@media (max-width: 500px) {
+  /* line 104, ../portfolio/codewiz/scss/_footer.scss */
+  .footer-wrap-2 {
+    row-gap: 2rem; }
+  /* line 108, ../portfolio/codewiz/scss/_footer.scss */
+  .footer-hero {
+    max-width: 70%; } }
 
 /* line 10, ../portfolio/codewiz/scss/main.scss */
 html {

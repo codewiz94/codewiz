@@ -23,6 +23,7 @@
 .footer-wrap-2 {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+    row-gap: 1rem;
 
     h4,
     h5 {
@@ -36,6 +37,7 @@
         place-self: center;
 
         li {
+            padding: 0.5rem 0;
             line-height: 2;
             font-size: $fs-md;
 
@@ -75,3 +77,35 @@
     }
 }
 
+@media (max-width: 900px) {
+
+    .footer-wrap-main {
+        grid-template-columns: unset;
+        grid-template-rows: 2.2fr 1fr;
+        column-gap: 1rem;
+    }
+
+    .footer-wrap-1 {
+        grid-row: 2;
+        display: grid;
+    }
+
+  
+
+    .footer-hero {
+        max-width: 50%;
+        place-self: center;
+    }
+
+}
+
+@media (max-width: 500px)  {
+
+    .footer-wrap-2 {
+        row-gap: 2rem;
+    }
+
+    .footer-hero {
+        max-width: 70%;
+    }
+}
