@@ -20,13 +20,33 @@ nav {
 }
 
 .menu-nav {
-    display: grid;
+    display: flex;
     list-style: none;
-    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
     text-transform: uppercase;
     padding: 1.5rem 0;
     border-bottom: 1px solid $underline-projects;
+
+    li a {
+        color: $color-text;
+        font-size: $fs-lg;
+    }
 }
+
+// MENU MEDIA QUERIES
+
+@media (max-width: 900px) {
+    .menu-nav li a {
+        font-size: $fs-base;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu-nav li a {
+        font-size: $fs-sm;
+    }
+}
+
 
 // CONTENT
 
