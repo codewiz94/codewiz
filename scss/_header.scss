@@ -71,3 +71,108 @@ nav {
     font-size: $fs-xl;
     padding-top: 1rem;
 }
+
+
+@media (max-width: 1300px) {
+
+    body header {
+        height: 80vh;
+        background: url(../img/bg/webp/header-bg-pc-grad.webp) bottom right no-repeat;
+        background-size: cover;
+    }
+
+    .header-section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    body header {
+        height: 80vh;
+        background: url(../img/bg/webp/header-bg-tb-grad.webp) top right no-repeat;
+        background-size: cover;
+    }
+
+    .header-section {
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .wiz {
+        max-width: 15%;
+    }
+
+    .header-hero {
+        max-width: 70%;
+        place-self: center;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .wiz {
+        max-width: 15%;
+    }
+
+    .header-hero {
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .wiz {
+        max-width: 15%;
+    }
+
+    .header-hero {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .wiz {
+        max-width: 18%;
+    }
+
+    .header-hero {
+        max-width: 94%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .wiz {
+        max-width: 20%;
+    }
+
+    .header-hero {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    body header {
+        background: url(../img/bg/webp/header-bg-mb-grad.webp) no-repeat;
+        background-size: cover;
+    }
+    
+    .header-section {
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .wiz {
+        max-width: 40%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .wiz {
+        max-width: 55%;
+    }
+}

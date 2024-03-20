@@ -62,6 +62,83 @@ nav {
   font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem);
   padding-top: 1rem; }
 
+@media (max-width: 1300px) {
+  /* line 78, ../portfolio/codewiz/scss/_header.scss */
+  body header {
+    height: 80vh;
+    background: url(../img/bg/webp/header-bg-pc-grad.webp) bottom right no-repeat;
+    background-size: cover; }
+  /* line 84, ../portfolio/codewiz/scss/_header.scss */
+  .header-section {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 900px) {
+  /* line 90, ../portfolio/codewiz/scss/_header.scss */
+  body header {
+    height: 80vh;
+    background: url(../img/bg/webp/header-bg-tb-grad.webp) top right no-repeat;
+    background-size: cover; }
+  /* line 96, ../portfolio/codewiz/scss/_header.scss */
+  .header-section {
+    grid-template-columns: unset;
+    grid-template-rows: 1fr 1fr; }
+  /* line 101, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 15%; }
+  /* line 105, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero {
+    max-width: 70%;
+    place-self: center; } }
+
+@media (max-width: 800px) {
+  /* line 114, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 15%; }
+  /* line 118, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero {
+    max-width: 80%; } }
+
+@media (max-width: 750px) {
+  /* line 126, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 15%; }
+  /* line 130, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero {
+    max-width: 90%; } }
+
+@media (max-width: 700px) {
+  /* line 137, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 18%; }
+  /* line 141, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero {
+    max-width: 94%; } }
+
+@media (max-width: 650px) {
+  /* line 148, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 20%; }
+  /* line 152, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero {
+    max-width: 100%; } }
+
+@media (max-width: 500px) {
+  /* line 159, ../portfolio/codewiz/scss/_header.scss */
+  body header {
+    background: url(../img/bg/webp/header-bg-mb-grad.webp) no-repeat;
+    background-size: cover; }
+  /* line 164, ../portfolio/codewiz/scss/_header.scss */
+  .header-section {
+    grid-template-rows: 2fr 1fr; }
+  /* line 168, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 40%; } }
+
+@media (max-width: 400px) {
+  /* line 175, ../portfolio/codewiz/scss/_header.scss */
+  .wiz {
+    max-width: 55%; } }
+
 /* line 1, ../portfolio/codewiz/scss/_section-about.scss */
 .about-section {
   min-height: 100vh;
