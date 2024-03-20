@@ -1119,34 +1119,35 @@ em {
 /* line 10, ../portfolio/codewiz/scss/main.scss */
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem; }
 
-/* line 15, ../portfolio/codewiz/scss/main.scss */
+/* line 16, ../portfolio/codewiz/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 19, ../portfolio/codewiz/scss/main.scss */
+/* line 20, ../portfolio/codewiz/scss/main.scss */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0; }
 
-/* line 25, ../portfolio/codewiz/scss/main.scss */
+/* line 26, ../portfolio/codewiz/scss/main.scss */
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle; }
 
-/* line 31, ../portfolio/codewiz/scss/main.scss */
+/* line 32, ../portfolio/codewiz/scss/main.scss */
 ul {
   margin: 0;
   padding-left: 0; }
 
-/* line 36, ../portfolio/codewiz/scss/main.scss */
+/* line 37, ../portfolio/codewiz/scss/main.scss */
 a {
   text-decoration: none; }
 
-/* line 40, ../portfolio/codewiz/scss/main.scss */
+/* line 41, ../portfolio/codewiz/scss/main.scss */
 h1,
 h2,
 h3,
@@ -1156,49 +1157,49 @@ h6 {
   margin: 0;
   text-transform: uppercase; }
 
-/* line 50, ../portfolio/codewiz/scss/main.scss */
+/* line 51, ../portfolio/codewiz/scss/main.scss */
 h1 {
   font-size: clamp(2.44rem, calc(2.14vw + 2.01rem), 3.75rem); }
 
-/* line 54, ../portfolio/codewiz/scss/main.scss */
+/* line 55, ../portfolio/codewiz/scss/main.scss */
 h2 {
   font-size: clamp(2.44rem, calc(2.14vw + 2.01rem), 3.75rem); }
 
-/* line 58, ../portfolio/codewiz/scss/main.scss */
+/* line 59, ../portfolio/codewiz/scss/main.scss */
 h3 {
   font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem); }
 
-/* line 62, ../portfolio/codewiz/scss/main.scss */
+/* line 63, ../portfolio/codewiz/scss/main.scss */
 h4 {
   font-size: clamp(1.56rem, calc(0.89vw + 1.38rem), 2.11rem); }
 
-/* line 66, ../portfolio/codewiz/scss/main.scss */
+/* line 67, ../portfolio/codewiz/scss/main.scss */
 h5 {
   font-size: clamp(1.25rem, calc(0.54vw + 1.14rem), 1.58rem); }
 
-/* line 70, ../portfolio/codewiz/scss/main.scss */
+/* line 71, ../portfolio/codewiz/scss/main.scss */
 p {
   font-size: clamp(1rem, calc(0.31vw + 0.94rem), 1.19rem); }
 
-/* line 74, ../portfolio/codewiz/scss/main.scss */
+/* line 75, ../portfolio/codewiz/scss/main.scss */
 body {
   font-family: "Rubik", sans-serif;
   background-color: aqua; }
 
-/* line 83, ../portfolio/codewiz/scss/main.scss */
+/* line 84, ../portfolio/codewiz/scss/main.scss */
 header {
   max-width: 100%;
   height: 100vh; }
 
-/* line 90, ../portfolio/codewiz/scss/main.scss */
+/* line 91, ../portfolio/codewiz/scss/main.scss */
 main {
   max-width: 100%; }
 
-/* line 94, ../portfolio/codewiz/scss/main.scss */
+/* line 95, ../portfolio/codewiz/scss/main.scss */
 section {
   max-width: 100%; }
 
-/* line 98, ../portfolio/codewiz/scss/main.scss */
+/* line 99, ../portfolio/codewiz/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
