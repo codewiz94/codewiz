@@ -19,12 +19,9 @@
 
 /*CUBE HERO*/
 
-.cube-hero-tb,
-.cube-hero-mb,
-.cube-hero-pc {
+.cube-hero {
     display: none;
 }
-
 
 
 
@@ -606,5 +603,134 @@
 
     .icon-wrap {
         font-size: 3rem;
+    }
+ }
+
+ // MOBILE
+
+ @media (max-width: 500px) {
+
+    .techstack-section {
+        background: url(../img/bg/webp/techstack-bg-mb-grad.webp) no-repeat;
+        background-size: cover;
+        min-height: 150vh;
+    }
+    
+    #skiller {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        row-gap: 1rem;
+        
+        .skill-level {
+            grid-column: 1 / 2;
+        }
+
+        .status-wrap {
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
+        }
+    }
+
+    .cube-wrap {
+        height: 40%;
+        background: none;
+      }
+
+
+    .cube-hero {
+        display: block;
+        height: 47%;
+        background: url(../img/myself/cube-hero-mb.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .cube {
+        left: 25%;
+        top: 25%;
+        width: 12.5rem; /* 200px */
+        height: 12.5rem; /* 200px */
+      }
+
+    .side {
+        width: 12.5rem; /* 200px */
+        height: 12.5rem; /* 200px */
+    }
+
+    .front {
+        transform: translateZ(6.25rem); /*100px*/  
+    }
+    
+    
+    .back {
+        transform: translateZ(-6.25rem); /*100px*/
+    }
+    
+    
+    .right {
+        transform: translateX(6.25rem) rotateY(90deg); /*100px*/
+    }
+    
+    .left {
+      transform: translateX(-6.25rem) rotateY(-90deg); /*100px*/
+      
+    }
+    
+    .top {
+      transform: translateY(-6.25rem) rotateX(90deg); /*100px*/
+    }
+    
+    .bottom {
+      transform: translateY(6.25rem) rotateX(-90deg); /*100px*/
+    }
+
+    .icon-wrap {
+        font-size: 6rem;
+    }
+ }
+
+ @media (max-width: 400px) {
+    .cube {
+        left: 21%;
+        top: 25%;
+        width: 10.9375rem; /* 175px */
+        height: 10.9375rem; /* 175px */
+      }
+
+    .side {
+        width: 10.9375rem; /* 175px */
+        height: 10.9375rem; /* 175px */
+    }
+
+    .front {
+        transform: translateZ(5.46875rem); /*87.5px*/  
+    }
+    
+    
+    .back {
+        transform: translateZ(-5.46875rem); /*87.5px*/
+    }
+    
+    
+    .right {
+        transform: translateX(5.46875rem) rotateY(90deg); /*87.5px*/
+    }
+    
+    .left {
+      transform: translateX(-5.46875rem) rotateY(-90deg); /*87.5px*/
+      
+    }
+    
+    .top {
+      transform: translateY(-5.46875rem) rotateX(90deg); /*87.5px*/
+    }
+    
+    .bottom {
+      transform: translateY(5.46875rem) rotateX(-90deg); /*87.5px*/
+    }
+
+    .icon-wrap {
+        font-size: 5rem;
     }
  }
