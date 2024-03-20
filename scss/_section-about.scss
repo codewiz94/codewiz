@@ -1,6 +1,6 @@
 .about-section {
     min-height: 100vh;
-    background: url(../img/bg/about-bg-pc-grad.png) no-repeat;
+    background: url(../img/bg/webp/about-bg-pc-grad.webp) no-repeat;
     background-size: cover;
     color: $color-text;
 
@@ -18,7 +18,7 @@
 
 .about-wrap-main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     column-gap: 1rem;
 }
 
@@ -43,4 +43,34 @@
 
 .about-wrap-2 {
     line-height: 2;
+}
+
+em {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .about-wrap-main {
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .about-section {
+        background: url(../img/bg/webp/about-bg-tb-grad.webp) no-repeat;
+        background-size: cover;
+    }
+
+    .about-wrap-2 p {
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-section {
+        background: url(../img/bg/webp/about-bg-mb-grad-final.webp) no-repeat;
+        background-size: cover;
+    }
 }

@@ -156,7 +156,7 @@ nav {
 /* line 1, ../portfolio/codewiz/scss/_section-about.scss */
 .about-section {
   min-height: 100vh;
-  background: url(../img/bg/about-bg-pc-grad.png) no-repeat;
+  background: url(../img/bg/webp/about-bg-pc-grad.webp) no-repeat;
   background-size: cover;
   color: #F2F3F4;
   border-bottom: 1px solid red; }
@@ -172,7 +172,7 @@ nav {
 /* line 19, ../portfolio/codewiz/scss/_section-about.scss */
 .about-wrap-main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
   column-gap: 1rem; }
 
 /* line 28, ../portfolio/codewiz/scss/_section-about.scss */
@@ -193,6 +193,32 @@ nav {
 /* line 44, ../portfolio/codewiz/scss/_section-about.scss */
 .about-wrap-2 {
   line-height: 2; }
+
+/* line 48, ../portfolio/codewiz/scss/_section-about.scss */
+em {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-weight: 500; }
+
+@media (max-width: 900px) {
+  /* line 55, ../portfolio/codewiz/scss/_section-about.scss */
+  .about-wrap-main {
+    display: block;
+    text-align: center;
+    padding-bottom: 3rem; }
+  /* line 61, ../portfolio/codewiz/scss/_section-about.scss */
+  .about-section {
+    background: url(../img/bg/webp/about-bg-tb-grad.webp) no-repeat;
+    background-size: cover; }
+  /* line 66, ../portfolio/codewiz/scss/_section-about.scss */
+  .about-wrap-2 p {
+    margin: 2rem 0; } }
+
+@media (max-width: 500px) {
+  /* line 72, ../portfolio/codewiz/scss/_section-about.scss */
+  .about-section {
+    background: url(../img/bg/webp/about-bg-mb-grad-final.webp) no-repeat;
+    background-size: cover; } }
 
 /* line 1, ../portfolio/codewiz/scss/_section-techstack.scss */
 .techstack-section {
@@ -1132,7 +1158,7 @@ h6 {
 
 /* line 50, ../portfolio/codewiz/scss/main.scss */
 h1 {
-  font-size: clamp(3.05rem, calc(3.18vw + 2.42rem), 5rem); }
+  font-size: clamp(2.44rem, calc(2.14vw + 2.01rem), 3.75rem); }
 
 /* line 54, ../portfolio/codewiz/scss/main.scss */
 h2 {
