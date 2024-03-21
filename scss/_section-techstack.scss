@@ -39,13 +39,13 @@
     min-height: 80vh;
     width: 100%;
     container-type: size;
-    z-index: 1;
+    
 }
 
 .cube {
     overflow: visible !important;
     position: absolute;
-    z-index: 2;
+    
     //left: 40%;
     //top: 22%;
     transform-style: preserve-3d;
@@ -70,9 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    backface-visibility: hidden;
+
     
     //filter: drop-shadow(5px 5px 10px $color-text);
 
