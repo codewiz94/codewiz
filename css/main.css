@@ -326,7 +326,7 @@ em {
   -webkit-transform: translate(-37%, -40%);
 }
 
-/* line 66, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 63, ../portfolio/codewiz/scss/_section-techstack.scss */
 .side {
   position: absolute;
   width: 100cqw;
@@ -336,7 +336,7 @@ em {
   justify-content: center;
 }
 
-/* line 80, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 77, ../portfolio/codewiz/scss/_section-techstack.scss */
 .icon-wrap {
   font-size: 50cqh;
 }
@@ -354,7 +354,7 @@ em {
     }
   }
 */
-/* line 98, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 95, ../portfolio/codewiz/scss/_section-techstack.scss */
 .front {
   /*HTML LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -363,7 +363,7 @@ em {
   transform: translateZ(50cqw);
 }
 
-/* line 108, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 105, ../portfolio/codewiz/scss/_section-techstack.scss */
 .back {
   /*GIT LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -373,7 +373,7 @@ em {
   /*125px*/
 }
 
-/* line 118, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 115, ../portfolio/codewiz/scss/_section-techstack.scss */
 .right {
   /*JS LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -383,7 +383,7 @@ em {
   /*125px*/
 }
 
-/* line 127, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 124, ../portfolio/codewiz/scss/_section-techstack.scss */
 .left {
   /*JQ LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -392,7 +392,7 @@ em {
   /*125px*/
 }
 
-/* line 136, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 133, ../portfolio/codewiz/scss/_section-techstack.scss */
 .top {
   /*SASS LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -402,7 +402,7 @@ em {
   /*125px*/
 }
 
-/* line 146, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 143, ../portfolio/codewiz/scss/_section-techstack.scss */
 .bottom {
   /*CSS LOGO*/
   background: url(../img/other/webp/sklo.webp) no-repeat;
@@ -412,7 +412,7 @@ em {
   /*125px*/
 }
 
-/* line 155, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 152, ../portfolio/codewiz/scss/_section-techstack.scss */
 .cube {
   animation: rotateAndScale 15s infinite linear;
 }
@@ -447,26 +447,26 @@ em {
   }
 }
 
-/* line 200, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 197, ../portfolio/codewiz/scss/_section-techstack.scss */
 .jqlogo {
   max-width: 50%;
   filter: drop-shadow(1px 1px 1px #000000);
 }
 
-/* line 205, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 202, ../portfolio/codewiz/scss/_section-techstack.scss */
 .cube-icon {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 /* SKILL SET */
-/* line 211, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 208, ../portfolio/codewiz/scss/_section-techstack.scss */
 .techstack-wrap-main .skill-set-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 40%;
 }
 
-/* line 218, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 215, ../portfolio/codewiz/scss/_section-techstack.scss */
 .skill-set-first,
 .skill-set-second {
   display: grid;
@@ -474,7 +474,7 @@ em {
   row-gap: 1rem;
 }
 
-/* line 225, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 222, ../portfolio/codewiz/scss/_section-techstack.scss */
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1.5fr;
@@ -482,51 +482,51 @@ em {
   column-gap: 1rem;
 }
 
-/* line 232, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 229, ../portfolio/codewiz/scss/_section-techstack.scss */
 .status-wrap {
   width: 100%;
   height: 50%;
   background-color: #611d6c;
 }
 
-/* line 238, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 235, ../portfolio/codewiz/scss/_section-techstack.scss */
 .status {
   width: 100%;
   height: 100%;
   background-color: #B83DCB;
 }
 
-/* line 244, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 241, ../portfolio/codewiz/scss/_section-techstack.scss */
 .html5 {
   width: 85%;
 }
 
-/* line 248, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 245, ../portfolio/codewiz/scss/_section-techstack.scss */
 .css3 {
   width: 85%;
 }
 
-/* line 252, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 249, ../portfolio/codewiz/scss/_section-techstack.scss */
 .js {
   width: 25%;
 }
 
-/* line 256, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 253, ../portfolio/codewiz/scss/_section-techstack.scss */
 .jq {
   width: 25%;
 }
 
-/* line 260, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 257, ../portfolio/codewiz/scss/_section-techstack.scss */
 .sass {
   width: 50%;
 }
 
-/* line 264, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 261, ../portfolio/codewiz/scss/_section-techstack.scss */
 .github {
   width: 25%;
 }
 
-/* line 268, ../portfolio/codewiz/scss/_section-techstack.scss */
+/* line 265, ../portfolio/codewiz/scss/_section-techstack.scss */
 .skill-name {
   text-transform: uppercase;
   font-weight: 700;
@@ -538,24 +538,24 @@ em {
 
 /* MEDIA QUERIES */
 @media (max-width: 900px) {
-  /* line 283, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 280, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-section {
     background: url(../img/bg/webp/techstack-bg-tb-grad-final.webp) center no-repeat;
     background-size: cover;
     min-height: 100vh;
   }
-  /* line 289, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 286, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-content {
     background: none;
   }
-  /* line 293, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 290, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-wrap-main .skill-set-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
     min-height: 10vh;
   }
-  /* line 300, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 297, ../portfolio/codewiz/scss/_section-techstack.scss */
   .cube-wrap {
     position: relative;
     min-height: 70vh;
@@ -563,7 +563,7 @@ em {
     background-size: contain;
     container-type: size;
   }
-  /* line 308, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 305, ../portfolio/codewiz/scss/_section-techstack.scss */
   .cube {
     width: 25cqw;
     height: 25cqw;
@@ -572,38 +572,38 @@ em {
     left: 20%;
     transform: translate(-20%, -38%);
   }
-  /* line 317, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 314, ../portfolio/codewiz/scss/_section-techstack.scss */
   .side {
     width: 100cqh;
     height: 100cqh;
     container-type: size;
   }
-  /* line 323, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 320, ../portfolio/codewiz/scss/_section-techstack.scss */
   .front {
     transform: translateZ(50cqh);
     /*100px*/
   }
-  /* line 328, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 325, ../portfolio/codewiz/scss/_section-techstack.scss */
   .back {
     transform: translateZ(-50cqh);
     /*100px*/
   }
-  /* line 333, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 330, ../portfolio/codewiz/scss/_section-techstack.scss */
   .right {
     transform: translateX(50cqh) rotateY(90deg);
     /*100px*/
   }
-  /* line 337, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 334, ../portfolio/codewiz/scss/_section-techstack.scss */
   .left {
     transform: translateX(-50cqh) rotateY(-90deg);
     /*100px*/
   }
-  /* line 342, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 339, ../portfolio/codewiz/scss/_section-techstack.scss */
   .top {
     transform: translateY(-50cqh) rotateX(90deg);
     /*100px*/
   }
-  /* line 346, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 343, ../portfolio/codewiz/scss/_section-techstack.scss */
   .bottom {
     transform: translateY(50cqh) rotateX(-90deg);
     /*100px*/
@@ -611,29 +611,29 @@ em {
 }
 
 @media (max-width: 500px) {
-  /* line 362, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 359, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-content {
     height: auto;
   }
-  /* line 368, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 365, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-wrap-main .skill-set-wrap {
     grid-template-columns: unset;
     row-gap: 1rem;
   }
-  /* line 373, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 370, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-section {
     background: url(../img/bg/webp/techstack-bg-mb-grad-final.webp) no-repeat;
     background-size: cover;
     min-height: 200vh;
   }
-  /* line 378, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 375, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-section .cube-wrap {
     min-height: 50vh;
     container-type: size;
     position: relative;
     background: none;
   }
-  /* line 386, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 383, ../portfolio/codewiz/scss/_section-techstack.scss */
   .skill-set-wrap .skill-set-first .skills,
   .skill-set-wrap .skill-set-second .skills {
     display: grid;
@@ -642,25 +642,25 @@ em {
     align-items: center;
     row-gap: 1rem;
   }
-  /* line 394, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 391, ../portfolio/codewiz/scss/_section-techstack.scss */
   .skill-set-wrap .skill-set-first .skills .skill-level,
   .skill-set-wrap .skill-set-second .skills .skill-level {
     grid-column: 1 / 2;
   }
-  /* line 398, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 395, ../portfolio/codewiz/scss/_section-techstack.scss */
   .skill-set-wrap .skill-set-first .skills .status-wrap,
   .skill-set-wrap .skill-set-second .skills .status-wrap {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
   }
-  /* line 407, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 404, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-section .cube-hero {
     display: block;
     height: 50vh;
     background: url(../img/myself/webp/cube-hero-mb.webp) center no-repeat;
     background-size: contain;
   }
-  /* line 414, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 411, ../portfolio/codewiz/scss/_section-techstack.scss */
   .cube {
     position: absolute;
     width: 40cqh;
@@ -670,7 +670,7 @@ em {
     left: 28%;
     transform: translate(-22%, -28%);
   }
-  /* line 428, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 425, ../portfolio/codewiz/scss/_section-techstack.scss */
   .side {
     width: 100cqh;
     /* 200px */
@@ -678,32 +678,32 @@ em {
     /* 200px */
     container-type: size;
   }
-  /* line 434, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 431, ../portfolio/codewiz/scss/_section-techstack.scss */
   .front {
     transform: translateZ(50cqh);
     /*100px*/
   }
-  /* line 439, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 436, ../portfolio/codewiz/scss/_section-techstack.scss */
   .back {
     transform: translateZ(-50cqh);
     /*100px*/
   }
-  /* line 444, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 441, ../portfolio/codewiz/scss/_section-techstack.scss */
   .right {
     transform: translateX(50cqh) rotateY(90deg);
     /*100px*/
   }
-  /* line 448, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 445, ../portfolio/codewiz/scss/_section-techstack.scss */
   .left {
     transform: translateX(-50cqh) rotateY(-90deg);
     /*100px*/
   }
-  /* line 453, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 450, ../portfolio/codewiz/scss/_section-techstack.scss */
   .top {
     transform: translateY(-50cqh) rotateX(90deg);
     /*100px*/
   }
-  /* line 457, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 454, ../portfolio/codewiz/scss/_section-techstack.scss */
   .bottom {
     transform: translateY(50cqh) rotateX(-90deg);
     /*100px*/
@@ -711,7 +711,7 @@ em {
 }
 
 @media (max-width: 350px) {
-  /* line 465, ../portfolio/codewiz/scss/_section-techstack.scss */
+  /* line 462, ../portfolio/codewiz/scss/_section-techstack.scss */
   .cube {
     top: 22%;
     left: 22%;
