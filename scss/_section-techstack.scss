@@ -42,11 +42,13 @@
 }
 
 .cube {
+    overflow: visible !important;
     position: absolute;
     z-index: 2;
     //left: 40%;
     //top: 22%;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     width: 20cqw;
     height: 20cqw;
     text-align: center;
