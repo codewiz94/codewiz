@@ -6,9 +6,7 @@ header {
     font-weight: 500;
 }
 
-.header-section {
-    border-bottom: 1px solid red;
-}
+
 
 // NAVIGATION
 
@@ -25,7 +23,7 @@ nav {
     justify-content: space-evenly;
     text-transform: uppercase;
     padding: 1.5rem 0;
-    border-bottom: 1px solid $underline-projects;
+    //border-bottom: 1px solid $underline-projects;
 
     li a {
         color: $color-text;
