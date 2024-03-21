@@ -29,7 +29,7 @@
 .techstack-content {
     background: url(../img/myself/webp/cube-hero-pc.webp) center no-repeat;
     background-size: contain;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*CUBE*/
@@ -610,10 +610,14 @@
 
  @media (max-width: 500px) {
 
+    .techstack-content {
+        height: auto;
+    }
+
     .techstack-section {
         background: url(../img/bg/webp/techstack-bg-mb-grad.webp) no-repeat;
         background-size: cover;
-        min-height: 150vh;
+        min-height: 200vh;
     }
     
     .skills {
@@ -634,14 +638,14 @@
     }
 
     .cube-wrap {
-        height: 40%;
+        height: 50vh;
         background: none;
       }
 
 
     .cube-hero {
         display: block;
-        height: 47%;
+        height: 50vh;
         background: url(../img/myself/cube-hero-mb.png) center no-repeat;
         background-size: contain;
     }
