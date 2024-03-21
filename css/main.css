@@ -270,22 +270,25 @@ em {
   height: 100cqw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  filter: drop-shadow(5px 5px 10px #F2F3F4);
-  animation: lighting 3s infinite alternate; }
+  justify-content: center; }
 
 /* line 74, ../portfolio/codewiz/scss/_section-techstack.scss */
 .icon-wrap {
   font-size: 50cqh; }
 
+/*
 @keyframes lighting {
-  0% {
-    filter: drop-shadow(5px 5px 10px #F2F3F4); }
-  50% {
-    filter: drop-shadow(5px 5px 30px #F2F3F4); }
-  100% {
-    filter: drop-shadow(5px 5px 10px #F2F3F4); } }
-
+    0% {
+        filter: drop-shadow(5px 5px 10px $color-text); 
+    }
+    50% {
+        filter: drop-shadow(5px 5px 30px $color-text);
+    }
+    100% {
+        filter: drop-shadow(5px 5px 10px $color-text);
+    }
+  }
+*/
 /* line 92, ../portfolio/codewiz/scss/_section-techstack.scss */
 .front {
   /*HTML LOGO*/
