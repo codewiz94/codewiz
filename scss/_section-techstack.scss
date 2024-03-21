@@ -210,7 +210,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40%;
-    //font-size: $fs-base;
+    
 }
 
 .skill-set-first,
@@ -296,7 +296,6 @@
     }
 
     .cube-wrap {
-        position: relative;
         min-height: 70vh;
         background: url(../img/myself/webp/cube-hero-tb.webp) center no-repeat;
         background-size: contain;
@@ -319,30 +318,30 @@
     }
 
     .front {
-        transform: translateZ(50cqh); /*100px*/
+        transform: translateZ(50cqh);
     }
     
     
     .back {
-        transform: translateZ(-50cqh); /*100px*/
+        transform: translateZ(-50cqh);
     }
     
     
     .right {
-        transform: translateX(50cqh) rotateY(90deg); /*100px*/
+        transform: translateX(50cqh) rotateY(90deg);
     }
     
     .left {
-      transform: translateX(-50cqh) rotateY(-90deg); /*100px*/
+      transform: translateX(-50cqh) rotateY(-90deg);
       
     }
     
     .top {
-      transform: translateY(-50cqh) rotateX(90deg); /*100px*/
+      transform: translateY(-50cqh) rotateX(90deg);
     }
     
     .bottom {
-      transform: translateY(50cqh) rotateX(-90deg); /*100px*/
+      transform: translateY(50cqh) rotateX(-90deg);
     }
 
 
@@ -357,11 +356,11 @@
 
 
 
-    .techstack-content {
+    /*.techstack-content {
         height: auto;
         
 
-    }
+    }*/
 
     .techstack-wrap-main .skill-set-wrap {
         grid-template-columns: unset;
@@ -376,7 +375,6 @@
         .cube-wrap{
             min-height: 50vh;
             container-type: size;
-            position: relative;
             background: none;
           }
     }
@@ -413,8 +411,8 @@
         //left: 25%;
         //top: 25%;
         position: absolute;
-        width: 40cqh;
-        height: 40cqh;
+        width: 35cqh;
+        height: 35cqh;
         container-type: size;
         
         top: 22%;
