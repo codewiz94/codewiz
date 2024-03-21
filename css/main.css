@@ -105,35 +105,45 @@ nav {
   font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem);
   padding-top: 1rem; }
 
+/*animacia*/
+/* line 138, ../portfolio/codewiz/scss/_header.scss */
+.logo-wrap .wiz {
+  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out; }
+
+/* line 142, ../portfolio/codewiz/scss/_header.scss */
+.logo-wrap.scaling .wiz {
+  transform: scale(1.05);
+  filter: drop-shadow(2px 2px 5px #fff); }
+
 @media (max-width: 1300px) {
-  /* line 137, ../portfolio/codewiz/scss/_header.scss */
+  /* line 148, ../portfolio/codewiz/scss/_header.scss */
   .header-section {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr; } }
 
 @media (max-width: 900px) {
-  /* line 146, ../portfolio/codewiz/scss/_header.scss */
+  /* line 157, ../portfolio/codewiz/scss/_header.scss */
   header {
     background: url(../img/bg/webp/header-bg-tb-grad.webp) no-repeat;
     background-size: cover; }
-  /* line 151, ../portfolio/codewiz/scss/_header.scss */
+  /* line 162, ../portfolio/codewiz/scss/_header.scss */
   .header-section {
     height: 100vh;
     display: grid;
     grid-template-columns: unset;
     grid-template-rows: 1fr 1fr; }
-  /* line 158, ../portfolio/codewiz/scss/_header.scss */
+  /* line 169, ../portfolio/codewiz/scss/_header.scss */
   .logo-content {
     display: grid;
     align-self: center;
     container-type: size;
     height: 30vh;
     padding-top: 5rem; }
-  /* line 166, ../portfolio/codewiz/scss/_header.scss */
+  /* line 177, ../portfolio/codewiz/scss/_header.scss */
   .wiz {
     max-width: 100cqh; }
-  /* line 170, ../portfolio/codewiz/scss/_header.scss */
+  /* line 181, ../portfolio/codewiz/scss/_header.scss */
   .header-hero-wrap {
     display: grid;
     align-self: end;
@@ -143,7 +153,7 @@ nav {
     background-size: contain; } }
 
 @media (max-width: 500px) {
-  /* line 182, ../portfolio/codewiz/scss/_header.scss */
+  /* line 193, ../portfolio/codewiz/scss/_header.scss */
   header {
     background: url(../img/bg/webp/header-bg-mb-grad2.webp) no-repeat;
     background-size: cover; } }

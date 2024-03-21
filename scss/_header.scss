@@ -133,6 +133,17 @@ nav {
     padding-top: 1rem;
 }
 
+
+/*animacia*/
+.logo-wrap .wiz {
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+  }
+  
+  .logo-wrap.scaling .wiz {
+    transform: scale(1.05);
+    filter: drop-shadow(2px 2px 5px #fff);
+  }
+
 @media (max-width: 1300px) {
     .header-section {
         height: 100vh;
