@@ -84,7 +84,7 @@ nav {
 // CONTENT
 
 .header-section {
-    height: 100%;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -92,21 +92,29 @@ nav {
 .logo-content {
     display: grid;
     align-self: center;
+    container-type: size;
+    height: 50cqh;
 }
 
 .header-hero-wrap {
     display: grid;
     align-self: end;
+    container-type: size;
+    height: 90vh;
+    background: url(../img/myself/header-hero.png) bottom right no-repeat;
+    background-size: contain;
+    
 }
 
 .logo-wrap {
     width: 100%;
+    container-type: size;
   }
 
 // LOGO
 
 .wiz {
-    max-width: 40%;
+    max-width: 50cqh;
 
     .cls-1, .cls-2 {
         fill: $color-text;
@@ -125,107 +133,60 @@ nav {
     padding-top: 1rem;
 }
 
-
 @media (max-width: 1300px) {
-
-    body header {
-        height: 80vh;
-        background: url(../img/bg/webp/header-bg-pc-grad.webp) bottom right no-repeat;
-        background-size: cover;
-    }
-
     .header-section {
+        height: 100vh;
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 900px) {
-    body header {
-        height: 80vh;
-        background: url(../img/bg/webp/header-bg-tb-grad.webp) top right no-repeat;
+
+    header {
+        background: url(../img/bg/webp/header-bg-tb-grad.webp) no-repeat;
         background-size: cover;
     }
 
     .header-section {
+        height: 100vh;
+        display: grid;
         grid-template-columns: unset;
         grid-template-rows: 1fr 1fr;
     }
 
-    .wiz {
-        max-width: 15%;
+    .logo-content {
+        display: grid;
+        align-self: center;
+        container-type: size;
+        height: 30vh;
+        padding-top: 5rem;
     }
-
-    .header-hero {
-        max-width: 70%;
-        place-self: center;
-    }
-
-}
-
-@media (max-width: 800px) {
 
     .wiz {
-        max-width: 15%;
+        max-width: 100cqh;
     }
 
-    .header-hero {
-        max-width: 80%;
-    }
-}
-
-
-@media (max-width: 750px) {
-
-    .wiz {
-        max-width: 15%;
-    }
-
-    .header-hero {
-        max-width: 90%;
-    }
-}
-
-@media (max-width: 700px) {
-
-    .wiz {
-        max-width: 18%;
-    }
-
-    .header-hero {
-        max-width: 94%;
-    }
-}
-
-@media (max-width: 650px) {
-
-    .wiz {
-        max-width: 20%;
-    }
-
-    .header-hero {
-        max-width: 100%;
+    .header-hero-wrap {
+        display: grid;
+        align-self: end;
+        container-type: size;
+        height: 40vh;
+        background: url(../img/myself/header-hero.png) bottom no-repeat;
+        background-size: contain;
+        
     }
 }
 
 @media (max-width: 500px) {
-
-    body header {
+    header {
         background: url(../img/bg/webp/header-bg-mb-grad.webp) no-repeat;
         background-size: cover;
     }
+
+}
+
+
+
+
     
-    .header-section {
-        grid-template-rows: 2fr 1fr;
-    }
-
-    .wiz {
-        max-width: 40%;
-    }
-
-}
-
-@media (max-width: 400px) {
-    .wiz {
-        max-width: 55%;
-    }
-}

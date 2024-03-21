@@ -64,116 +64,89 @@ nav {
 
 /* line 86, ../portfolio/codewiz/scss/_header.scss */
 .header-section {
-  height: 100%;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 2fr; }
 
 /* line 92, ../portfolio/codewiz/scss/_header.scss */
 .logo-content {
   display: grid;
-  align-self: center; }
+  align-self: center;
+  container-type: size;
+  height: 50cqh; }
 
-/* line 97, ../portfolio/codewiz/scss/_header.scss */
+/* line 99, ../portfolio/codewiz/scss/_header.scss */
 .header-hero-wrap {
   display: grid;
-  align-self: end; }
+  align-self: end;
+  container-type: size;
+  height: 90vh;
+  background: url(../img/myself/header-hero.png) bottom right no-repeat;
+  background-size: contain; }
 
-/* line 102, ../portfolio/codewiz/scss/_header.scss */
+/* line 109, ../portfolio/codewiz/scss/_header.scss */
 .logo-wrap {
-  width: 100%; }
+  width: 100%;
+  container-type: size; }
 
-/* line 108, ../portfolio/codewiz/scss/_header.scss */
+/* line 116, ../portfolio/codewiz/scss/_header.scss */
 .wiz {
-  max-width: 40%; }
-  /* line 111, ../portfolio/codewiz/scss/_header.scss */
+  max-width: 50cqh; }
+  /* line 119, ../portfolio/codewiz/scss/_header.scss */
   .wiz .cls-1, .wiz .cls-2 {
     fill: #F2F3F4;
     stroke-width: 0px; }
-  /* line 116, ../portfolio/codewiz/scss/_header.scss */
+  /* line 124, ../portfolio/codewiz/scss/_header.scss */
   .wiz .cls-2 {
     fill-rule: evenodd; }
 
-/* line 123, ../portfolio/codewiz/scss/_header.scss */
+/* line 131, ../portfolio/codewiz/scss/_header.scss */
 .logo-text {
   font-size: clamp(1.95rem, calc(1.4vw + 1.67rem), 2.81rem);
   padding-top: 1rem; }
 
 @media (max-width: 1300px) {
-  /* line 131, ../portfolio/codewiz/scss/_header.scss */
-  body header {
-    height: 80vh;
-    background: url(../img/bg/webp/header-bg-pc-grad.webp) bottom right no-repeat;
-    background-size: cover; }
   /* line 137, ../portfolio/codewiz/scss/_header.scss */
   .header-section {
+    height: 100vh;
+    display: grid;
     grid-template-columns: 1fr 1fr; } }
 
 @media (max-width: 900px) {
-  /* line 143, ../portfolio/codewiz/scss/_header.scss */
-  body header {
-    height: 80vh;
-    background: url(../img/bg/webp/header-bg-tb-grad.webp) top right no-repeat;
+  /* line 146, ../portfolio/codewiz/scss/_header.scss */
+  header {
+    background: url(../img/bg/webp/header-bg-tb-grad.webp) no-repeat;
     background-size: cover; }
-  /* line 149, ../portfolio/codewiz/scss/_header.scss */
+  /* line 151, ../portfolio/codewiz/scss/_header.scss */
   .header-section {
+    height: 100vh;
+    display: grid;
     grid-template-columns: unset;
     grid-template-rows: 1fr 1fr; }
-  /* line 154, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 15%; }
   /* line 158, ../portfolio/codewiz/scss/_header.scss */
-  .header-hero {
-    max-width: 70%;
-    place-self: center; } }
-
-@media (max-width: 800px) {
-  /* line 167, ../portfolio/codewiz/scss/_header.scss */
+  .logo-content {
+    display: grid;
+    align-self: center;
+    container-type: size;
+    height: 30vh;
+    padding-top: 5rem; }
+  /* line 166, ../portfolio/codewiz/scss/_header.scss */
   .wiz {
-    max-width: 15%; }
-  /* line 171, ../portfolio/codewiz/scss/_header.scss */
-  .header-hero {
-    max-width: 80%; } }
-
-@media (max-width: 750px) {
-  /* line 179, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 15%; }
-  /* line 183, ../portfolio/codewiz/scss/_header.scss */
-  .header-hero {
-    max-width: 90%; } }
-
-@media (max-width: 700px) {
-  /* line 190, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 18%; }
-  /* line 194, ../portfolio/codewiz/scss/_header.scss */
-  .header-hero {
-    max-width: 94%; } }
-
-@media (max-width: 650px) {
-  /* line 201, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 20%; }
-  /* line 205, ../portfolio/codewiz/scss/_header.scss */
-  .header-hero {
-    max-width: 100%; } }
+    max-width: 100cqh; }
+  /* line 170, ../portfolio/codewiz/scss/_header.scss */
+  .header-hero-wrap {
+    display: grid;
+    align-self: end;
+    container-type: size;
+    height: 40vh;
+    background: url(../img/myself/header-hero.png) bottom no-repeat;
+    background-size: contain; } }
 
 @media (max-width: 500px) {
-  /* line 212, ../portfolio/codewiz/scss/_header.scss */
-  body header {
+  /* line 182, ../portfolio/codewiz/scss/_header.scss */
+  header {
     background: url(../img/bg/webp/header-bg-mb-grad.webp) no-repeat;
-    background-size: cover; }
-  /* line 217, ../portfolio/codewiz/scss/_header.scss */
-  .header-section {
-    grid-template-rows: 2fr 1fr; }
-  /* line 221, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 40%; } }
-
-@media (max-width: 400px) {
-  /* line 228, ../portfolio/codewiz/scss/_header.scss */
-  .wiz {
-    max-width: 55%; } }
+    background-size: cover; } }
 
 /* line 1, ../portfolio/codewiz/scss/_section-about.scss */
 .about-section {
