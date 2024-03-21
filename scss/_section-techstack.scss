@@ -70,6 +70,9 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
     
     //filter: drop-shadow(5px 5px 10px $color-text);
 
