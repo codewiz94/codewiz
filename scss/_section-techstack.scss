@@ -39,7 +39,7 @@
     min-height: 80vh;
     width: 100%;
     container-type: size;
-    
+    z-index: 1;
 }
 
 .cube {
@@ -56,6 +56,7 @@
     left: 40%;
     transform: translate(-37%, -40%);
     -webkit-transform: translate(-37%, -40%);
+    z-index: 2;
   }
 
 
