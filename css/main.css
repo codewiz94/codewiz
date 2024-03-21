@@ -1,6 +1,6 @@
 /* line 1, ../portfolio/codewiz/scss/_header.scss */
 header {
-  background: url(../img/bg/webp/header-bg-pc-grad.webp) no-repeat;
+  background: url(../img/bg/webp/header-bg-pc-grad2.webp) no-repeat;
   background-size: cover;
   text-align: center;
   color: #F2F3F4;
@@ -889,23 +889,22 @@ p {
 
 /* line 75, ../portfolio/codewiz/scss/main.scss */
 body {
-  font-family: "Rubik", sans-serif;
-  background-color: aqua; }
+  font-family: "Rubik", sans-serif; }
 
-/* line 84, ../portfolio/codewiz/scss/main.scss */
+/* line 83, ../portfolio/codewiz/scss/main.scss */
 header {
   max-width: 100%;
   height: 100vh; }
 
-/* line 91, ../portfolio/codewiz/scss/main.scss */
+/* line 90, ../portfolio/codewiz/scss/main.scss */
 main {
   max-width: 100%; }
 
-/* line 95, ../portfolio/codewiz/scss/main.scss */
+/* line 94, ../portfolio/codewiz/scss/main.scss */
 section {
   max-width: 100%; }
 
-/* line 99, ../portfolio/codewiz/scss/main.scss */
+/* line 98, ../portfolio/codewiz/scss/main.scss */
 .content {
   max-width: 1300px;
   margin: 0 auto;
