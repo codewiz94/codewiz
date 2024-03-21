@@ -566,7 +566,7 @@ em {
 @media (max-width: 900px) {
   /* line 356, ../portfolio/codewiz/scss/_section-techstack.scss */
   .techstack-section {
-    background: url(../img/bg/webp/techstack-bg-tb-grad.webp) no-repeat;
+    background: url(../img/bg/webp/techstack-bg-tb-grad-final.webp) center no-repeat;
     background-size: cover;
     min-height: 100vh; }
   /* line 362, ../portfolio/codewiz/scss/_section-techstack.scss */
