@@ -39,6 +39,7 @@
     min-height: 80vh;
     width: 100%;
     container-type: size;
+    z-index: 1;
 }
 
 .cube {
@@ -49,6 +50,7 @@
     //top: 22%;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
     width: 20cqw;
     height: 20cqw;
     text-align: center;
