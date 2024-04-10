@@ -70,9 +70,9 @@
     justify-content: center; 
 
     
-    //filter: drop-shadow(5px 5px 10px $color-text);
+    filter: drop-shadow(5px 5px 10px $color-text);
 
-    //animation: lighting 3s infinite alternate;
+    animation: lighting 3s infinite alternate;
 }
 
 .icon-wrap {
@@ -80,7 +80,7 @@
 }
 
 // SHADOW / LIGHTING ANIMATION //
-/*
+
 @keyframes lighting {
     0% {
         filter: drop-shadow(5px 5px 10px $color-text); 
@@ -92,7 +92,7 @@
         filter: drop-shadow(5px 5px 10px $color-text);
     }
   }
-*/
+
 .front {
     /*HTML LOGO*/
     background: url(../img/other/webp/sklo.webp) no-repeat;
